@@ -1,0 +1,208 @@
+# Este archivo permite editar visualmente el CV desde https://app.pagescms.org
+media:
+  - name: images
+    label: Imágenes y fotografía
+    input: public/uploads/images
+    output: /uploads/images
+    categories: [image]
+    rename: safe
+  - name: docs
+    label: Documentos PDF
+    input: public/uploads/docs
+    output: /uploads/docs
+    categories: [document]
+    rename: safe
+
+content:
+  - name: perfil
+    label: 01 Perfil, foto y contacto
+    type: file
+    path: src/data/profile.json
+    format: json
+    fields:
+      - { name: name, label: Nombre completo, type: string, required: true }
+      - { name: degree_es, label: Grado académico en español, type: string }
+      - { name: degree_en, label: Academic degree in English, type: string }
+      - { name: institution, label: Universidad, type: string }
+      - { name: tagline_es, label: Línea de presentación ES, type: text }
+      - { name: tagline_en, label: Intro line EN, type: text }
+      - { name: bio_es, label: Resumen biográfico ES, type: text }
+      - { name: bio_en, label: Biography EN, type: text }
+      - { name: intro_note_es, label: Texto de portada ES, type: text }
+      - { name: intro_note_en, label: Home description EN, type: text }
+      - { name: photo, label: Foto de perfil, type: image, media: images }
+      - { name: email, label: Correo electrónico público, type: string }
+      - { name: website, label: Sitio adicional, type: string }
+      - { name: orcid, label: ORCID, type: string }
+      - { name: google_scholar, label: Google Scholar, type: string }
+      - { name: philpapers, label: PhilPapers, type: string }
+      - { name: cv_pdf, label: CV descargable en PDF, type: file, media: docs }
+      - { name: location_es, label: Ubicación ES (opcional), type: string }
+      - { name: location_en, label: Location EN (optional), type: string }
+
+  - name: publicaciones
+    label: 02 Publicaciones
+    type: collection
+    path: src/data/publications
+    format: json
+    filename: "{primary}.json"
+    view: { primary: title, fields: [year, title, kind], sort: year, order: desc }
+    fields:
+      - { name: title, label: Título original (no traducir), type: string, required: true }
+      - { name: year, label: Año, type: number, required: true }
+      - name: kind
+        label: Tipo
+        type: select
+        options:
+          values:
+            - { name: article, label: Artículo }
+            - { name: chapter, label: Capítulo de libro }
+            - { name: edited_book, label: Libro coordinado }
+            - { name: review, label: Reseña }
+            - { name: column, label: Columnas en prensa }
+      - { name: citation, label: Referencia bibliográfica completa, type: text, required: true }
+      - { name: doi, label: DOI (opcional), type: string }
+      - { name: url, label: URL de la revista o publicación, type: string }
+      - { name: pdf_url, label: URL de PDF externo o PDF en uploads/docs, type: string }
+      - { name: embed_url, label: URL de visor incrustable (si lo permite), type: string }
+      - { name: featured, label: Destacar en inicio, type: boolean }
+
+  - name: investigacion
+    label: 03 Investigación y proyectos
+    type: collection
+    path: src/data/research
+    format: json
+    filename: "{primary}.json"
+    view: { primary: title, fields: [year, kind], sort: year, order: desc }
+    fields:
+      - { name: title, label: Título de trabajo o proyecto, type: string, required: true }
+      - { name: year, label: Año o período, type: string, required: true }
+      - { name: kind, label: Categoría, type: string }
+      - { name: description_es, label: Descripción ES, type: text }
+      - { name: description_en, label: Description EN, type: text }
+      - { name: url, label: Enlace, type: string }
+      - { name: pdf_url, label: Enlace a PDF, type: string }
+      - { name: embed_url, label: Enlace incrustable, type: string }
+      - { name: featured, label: Destacar en inicio, type: boolean }
+
+  - name: docencia
+    label: 04 Experiencia docente
+    type: collection
+    path: src/data/teaching
+    format: json
+    filename: "{primary}.json"
+    view: { primary: title, fields: [year, kind], sort: year, order: desc }
+    fields:
+      - { name: title, label: Asignatura original, type: string, required: true }
+      - { name: year, label: Período, type: string }
+      - name: kind
+        label: Tipo
+        type: select
+        options:
+          values:
+            - { name: docencia, label: Docencia }
+            - { name: ayudantia, label: Ayudantía }
+      - { name: institution, label: Institución, type: string }
+      - { name: description_es, label: Descripción ES, type: text }
+      - { name: description_en, label: Description EN, type: text }
+
+  - name: conferencias
+    label: 05 Conferencias y eventos
+    type: collection
+    path: src/data/talks
+    format: json
+    filename: "{primary}.json"
+    view: { primary: event, fields: [date, title], sort: date, order: desc }
+    fields:
+      - { name: date, label: Fecha original (DD/MM/AAAA), type: string }
+      - { name: year, label: Año, type: number }
+      - { name: event, label: Nombre original del evento, type: string, required: true }
+      - { name: title, label: Título original de ponencia, type: string }
+      - { name: institution, label: Institución, type: string }
+      - { name: description_es, label: Descripción ES, type: text }
+      - { name: description_en, label: Description EN, type: text }
+      - { name: video_url, label: Video YouTube, type: string }
+      - { name: slides_url, label: Presentación online, type: string }
+      - { name: pdf_url, label: Documento PDF, type: string }
+
+  - name: formacion
+    label: 06 Formación
+    type: collection
+    path: src/data/education
+    format: json
+    filename: "{primary}.json"
+    view: { primary: title_es, fields: [year], sort: year, order: desc }
+    fields:
+      - { name: year, label: Período, type: string }
+      - { name: title_es, label: Titulación ES, type: string }
+      - { name: title_en, label: Qualification EN, type: string }
+      - { name: institution, label: Institución, type: string }
+      - { name: description_es, label: Descripción ES, type: text }
+      - { name: description_en, label: Description EN, type: text }
+
+  - name: reconocimientos
+    label: 07 Becas y distinciones
+    type: collection
+    path: src/data/recognitions
+    format: json
+    filename: "{primary}.json"
+    view: { primary: title, fields: [year], sort: year, order: desc }
+    fields:
+      - { name: year, label: Período, type: string }
+      - { name: kind, label: Tipo, type: string }
+      - { name: title, label: Título original, type: string }
+      - { name: description_es, label: Descripción ES, type: text }
+      - { name: description_en, label: Description EN, type: text }
+
+  - name: idiomas
+    label: 08 Idiomas
+    type: file
+    path: src/data/languages.json
+    format: json
+    list: true
+    fields:
+      - { name: name_es, label: Idioma ES, type: string }
+      - { name: name_en, label: Language EN, type: string }
+      - { name: level_es, label: Nivel ES, type: string }
+      - { name: level_en, label: Level EN, type: string }
+
+  - name: materiales
+    label: 09 Material didáctico y divulgación
+    type: collection
+    path: src/data/media
+    format: json
+    filename: "{primary}.json"
+    view: { primary: title, fields: [kind, year], sort: year, order: desc }
+    fields:
+      - { name: title, label: Título original, type: string, required: true }
+      - { name: kind, label: Tipo (video, pdf, presentacion, enlace), type: string }
+      - { name: year, label: Año, type: number }
+      - { name: description_es, label: Descripción ES, type: text }
+      - { name: description_en, label: Description EN, type: text }
+      - { name: url, label: Enlace web, type: string }
+      - { name: video_url, label: Video YouTube, type: string }
+      - { name: pdf_url, label: PDF en línea, type: string }
+      - { name: embed_url, label: Presentación/PDF incrustable, type: string }
+
+  - name: galeria
+    label: 10 Galería de portadas y publicaciones
+    type: collection
+    path: src/data/gallery
+    format: json
+    filename: "{primary}.json"
+    view: { primary: title, fields: [year, title], sort: year, order: desc }
+    fields:
+      - { name: title, label: Título original de la obra, type: string, required: true }
+      - { name: year, label: Año de publicación, type: number }
+      - { name: image, label: Fotografía o portada (subir imagen), type: image, media: images, required: true }
+      - { name: url, label: Enlace donde leer o comprar la obra, type: string, required: true }
+      - name: link_kind
+        label: Acción del enlace
+        type: select
+        options:
+          values:
+            - { name: open, label: Ver publicación }
+            - { name: read, label: Leer publicación }
+            - { name: buy, label: Comprar publicación }
+      - { name: description_es, label: Descripción breve ES (opcional), type: text }
+      - { name: description_en, label: Short description EN (optional), type: text }
