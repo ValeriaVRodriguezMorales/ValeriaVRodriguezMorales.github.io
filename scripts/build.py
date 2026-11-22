@@ -29,13 +29,13 @@ DB = {name:read_records(name) for name in ('education','publications','research'
 SLUGS={
 'es':{'home':'','research':'investigacion','publications':'publicaciones','gallery':'galeria','teaching':'docencia','talks':'conferencias','education':'formacion','recognitions':'distinciones','media':'recursos','profile':'perfil'},
 'en':{'home':'','research':'research','publications':'publications','gallery':'gallery','teaching':'teaching','talks':'talks','education':'education','recognitions':'recognition','media':'resources','profile':'profile'}}
-SECTIONS=['home','research','publications','gallery','teaching','talks','education','recognitions','media','profile']
+SECTIONS=['home','research','gallery','teaching','talks','education','recognitions','media','profile']
 TEXT={
 'es':{
-'home':'Inicio','research':'Investigación','publications':'Publicaciones','gallery':'Galería','teaching':'Docencia','talks':'Conferencias','education':'Formación','recognitions':'Becas y distinciones','media':'Recursos','profile':'Perfil y contacto',
+'home':'Inicio','research':'Investigación y publicaciones','researchSub':'Investigación y proyectos','publications':'Publicaciones','gallery':'Galería','teaching':'Docencia','talks':'Conferencias','education':'Formación','recognitions':'Becas y distinciones','media':'Recursos','profile':'Perfil y contacto',
 'academic':'Perfil académico','explore':'Explorar trayectoria','cv':'Currículum','year':'Año','featuredR':'Investigación destacada','featuredP':'Publicaciones seleccionadas','all':'Ver todas','more':'Conocer más','records':'Trayectoria completa','complete':'Conocer el perfil completo','back':'Volver arriba','download':'Descargar CV en PDF','addCv':'Podrás incorporar tu CV PDF desde el editor visual.','photo':'Espacio para fotografía','bio':'Resumen biográfico pendiente de incorporar.','contactEmpty':'Puedes completar tu correo y perfiles académicos desde el editor visual.','about':'Resumen biográfico','contact':'Contacto','links':'Perfiles académicos','areas':'Áreas de competencia','languages':'Idiomas','pubTotal':'Publicaciones y colaboraciones','talkTotal':'Participaciones académicas','teachTotal':'Experiencias docentes','opening':'Doctora en Filosofía por la Pontificia Universidad Católica de Chile, con Distinción Máxima.',
 'articles':'Artículos en revistas especializadas','chapters':'Capítulos de libro','edited':'Libros coordinados','reviews':'Reseñas','columns':'Columnas en periódicos','lecturer':'Docencia','assistant':'Ayudantías','filter':'Buscar por título, año o referencia…','allKinds':'Todos los tipos','none':'No hay resultados para esa búsqueda.','presentation':'Ponencia','original':'Registro original del CV','open':'Abrir enlace','pdf':'Abrir PDF','doi':'Consultar DOI','viewHere':'Mostrar documento aquí','noteEmbed':'Algunos editores y plataformas no permiten incrustar sus páginas. Si el visor no carga, abre el enlace original.','source':'Abrir documento original','video':'Video de YouTube','slide':'Abrir presentación','mediaEmpty':'Esta sección está preparada para recibir videos, documentos PDF y presentaciones interactivas. Puedes agregarlos desde Pages CMS.','titles':'Los títulos de trabajos, publicaciones y ponencias se conservan en su idioma original.',
-'intro_research':'Tesis doctoral, estancias de investigación, supervisión de tesis y proyectos académicos.',
+'intro_research':'Proyectos de investigación, tesis doctoral, estancias académicas y publicaciones.',
 'intro_publications':'Artículos, capítulos, coordinación editorial y colaboración en prensa.',
 'intro_gallery':'Portadas e imágenes de publicaciones. Selecciona una imagen para abrir la página donde puedes leer o adquirir la obra.',
 'galleryEmpty':'Próximamente encontrarás aquí imágenes de publicaciones y enlaces para leerlas o adquirirlas.',
@@ -49,10 +49,10 @@ TEXT={
 'role_tesis':'Tesis doctoral','role_supervision':'Tutoría de tesis','role_estancia':'Estancia de investigación','role_archivo':'Investigación en archivos','role_edicion':'Edición','role_direccion':'Coordinación y gestión','role_beca':'Beca','role_premio':'Premio','role_membresia':'Asociación académica','role_financiamiento':'Financiamiento',
 },
 'en':{
-'home':'Home','research':'Research','publications':'Publications','gallery':'Gallery','teaching':'Teaching','talks':'Conferences','education':'Education','recognitions':'Awards and distinctions','media':'Resources','profile':'Profile and contact',
+'home':'Home','research':'Research and publications','researchSub':'Research projects','publications':'Publications','gallery':'Gallery','teaching':'Teaching','talks':'Conferences','education':'Education','recognitions':'Awards and distinctions','media':'Resources','profile':'Profile and contact',
 'academic':'Academic profile','explore':'Explore academic work','cv':'Curriculum vitae','year':'Year','featuredR':'Selected research','featuredP':'Selected publications','all':'See all','more':'Explore more','records':'Full academic record','complete':'Explore my academic profile','back':'Back to top','download':'Download CV (PDF)','addCv':'You can upload your CV PDF through the visual editor.','photo':'Portrait placeholder','bio':'Biographical summary to be added.','contactEmpty':'You can add an email address and academic profiles in the visual editor.','about':'Biography','contact':'Contact','links':'Academic profiles','areas':'Areas of expertise','languages':'Languages','pubTotal':'Publications and contributions','talkTotal':'Academic event appearances','teachTotal':'Teaching appointments','opening':'PhD in Philosophy from Pontificia Universidad Católica de Chile, awarded the highest distinction.',
 'articles':'Journal articles','chapters':'Book chapters','edited':'Edited volumes','reviews':'Reviews','columns':'Newspaper columns','lecturer':'Lecturer positions','assistant':'Teaching assistantships','filter':'Search by title, year or reference…','allKinds':'All types','none':'No results match your search.','presentation':'Presentation','original':'Original CV entry','open':'Open link','pdf':'Open PDF','doi':'View DOI','viewHere':'View document here','noteEmbed':'Some publishers and platforms prevent their pages from being embedded. If the viewer does not load, open the original link.','source':'Open original document','video':'YouTube video','slide':'Open presentation','mediaEmpty':'This section is ready for videos, PDF documents and interactive presentations. Add them through Pages CMS.','titles':'The original titles of works, publications and presentations are preserved.',
-'intro_research':'Doctoral thesis, academic visits, thesis supervision and research projects.',
+'intro_research':'Research projects, doctoral thesis, academic visits and publications.',
 'intro_publications':'Journal articles, book chapters, editorial coordination and newspaper writing.',
 'intro_gallery':'Covers and images of publications. Select an image to visit the page where you can read or purchase the work.',
 'galleryEmpty':'Images of publications and links to read or purchase them will be featured here.',
@@ -113,7 +113,7 @@ def top(lang,page):
     return f'''<section class="page-title-section"><div class="container"><div class="crumb"><a href="{path(lang,'home')}">{e(t['home'])}</a><span aria-hidden="true">/</span><span>{e(t[page])}</span></div><p class="kicker light-kicker">{e(t['academic'])}</p><h1>{e(t[page])}</h1><p class="page-subtitle">{e(desc)}</p></div></section>'''
 
 def article_feature(x,lang):
-    return f'''<article class="featured-pub"><span class="pub-year">{e(x.get('year'))}</span><div><span class="item-type">{e(TEXT[lang][PUBLABELS.get(x.get('kind'),'articles')])}</span><h3>{e(x.get('title'))}</h3><p>{e(x.get('citation'))}</p></div><a class="circle-arrow" href="{path(lang,'publications')}" aria-label="{TEXT[lang]['publications']}">→</a></article>'''
+    return f'''<article class="featured-pub"><span class="pub-year">{e(x.get('year'))}</span><div><span class="item-type">{e(TEXT[lang][PUBLABELS.get(x.get('kind'),'articles')])}</span><h3>{e(x.get('title'))}</h3><p>{e(x.get('citation'))}</p></div><a class="circle-arrow" href="{path(lang,'research')+'#publicaciones'}" aria-label="{TEXT[lang]['publications']}">→</a></article>'''
 
 def home(lang):
     p=PROFILE;t=TEXT[lang];photo=safe_url(p.get('photo'))
@@ -121,9 +121,9 @@ def home(lang):
     intro=langval(p,'bio',lang) or langval(p,'intro_note',lang)
     stats=[('publications','pubTotal'),('talks','talkTotal'),('teaching','teachTotal')]
     stat_html=''.join(f'<a class="stat" href="{path(lang,section)}"><strong>{len(DB[section])}</strong><span>{e(t[label])}</span><i aria-hidden="true">↗</i></a>' for section,label in stats)
-    research=''.join(f'''<article class="feature-card"><div class="card-top"><span>{e(x['year'])}</span><span>{e(t.get('role_'+str(x.get('kind')),x.get('kind')))}</span></div><h3>{e(x['title'])}</h3><p>{e(langval(x,'description',lang))}</p>{link(t['more']+' →',path(lang,'research'),'text-link')}</article>''' for x in DB['research'] if x.get('featured'))
+    research=''.join(f'''<article class="feature-card"><div class="card-top"><span>{e(x['year'])}</span><span>{e(t.get('role_'+str(x.get('kind')),x.get('kind')))}</span></div><h3>{e(x['title'])}</h3><p>{e(langval(x,'description',lang))}</p>{link(t['more']+' →',path(lang,'research')+'#proyectos','text-link')}</article>''' for x in DB['research'] if x.get('featured'))
     pubs=''.join(article_feature(x,lang) for x in DB['publications'] if x.get('featured'))
-    return f'''<section class="hero"><div class="container hero-grid"><div class="hero-copy"><div class="eyebrow"><span class="small-line"></span>{e(t['academic'])}</div><h1>{e(p['name'])}</h1><p class="hero-degree">{e(langval(p,'degree',lang))}</p><p class="hero-fields">{e(langval(p,'tagline',lang))}</p><p class="hero-intro">{e(intro)}</p><div class="hero-actions"><a class="button primary" href="{path(lang,'research')}">{e(t['explore'])} →</a><a class="button secondary" href="{path(lang,'profile')}">{e(t['cv'])} →</a></div><p class="university-line"><span class="mini-rule"></span>{e(p['institution'])}</p></div><div class="portrait-wrap"><div class="portrait-frame">{portrait}</div><div class="portrait-caption">{e(langval(p,'location',lang) or t['academic'])}</div></div></div></section><div class="accent-divider"><div class="container"><span></span></div></div><section class="container section-padding"><div class="section-heading"><div><p class="kicker">{e(t['records'])}</p><h2>{e(t['academic'])}</h2></div><p>{e(t['opening'])}</p></div><div class="stats-grid">{stat_html}</div></section><section class="subtle-band"><div class="container section-padding"><div class="section-heading"><div><p class="kicker">{e(t['research'])}</p><h2>{e(t['featuredR'])}</h2></div>{link(t['all']+' →',path(lang,'research'),'arrow-link')}</div><div class="two-col-cards">{research}</div></div></section><section class="container section-padding"><div class="section-heading"><div><p class="kicker">{e(t['publications'])}</p><h2>{e(t['featuredP'])}</h2></div>{link(t['all']+' →',path(lang,'publications'),'arrow-link')}</div><div class="featured-pubs">{pubs}</div></section><section class="home-cta"><div class="container home-cta-inner"><div><p class="kicker">{e(t['records'])}</p><h2>{e(t['complete'])}</h2></div>{link(t['profile']+' →',path(lang,'profile'),'button light')}</div></section>'''
+    return f'''<section class="hero"><div class="container hero-grid"><div class="hero-copy"><div class="eyebrow"><span class="small-line"></span>{e(t['academic'])}</div><h1>{e(p['name'])}</h1><p class="hero-degree">{e(langval(p,'degree',lang))}</p><p class="hero-fields">{e(langval(p,'tagline',lang))}</p><p class="hero-intro">{e(intro)}</p><div class="hero-actions"><a class="button primary" href="{path(lang,'research')}">{e(t['explore'])} →</a><a class="button secondary" href="{path(lang,'profile')}">{e(t['cv'])} →</a></div><p class="university-line"><span class="mini-rule"></span>{e(p['institution'])}</p></div><div class="portrait-wrap"><div class="portrait-frame">{portrait}</div><div class="portrait-caption">{e(langval(p,'location',lang) or t['academic'])}</div></div></div></section><div class="accent-divider"><div class="container"><span></span></div></div><section class="container section-padding"><div class="section-heading"><div><p class="kicker">{e(t['records'])}</p><h2>{e(t['academic'])}</h2></div><p>{e(t['opening'])}</p></div><div class="stats-grid">{stat_html}</div></section><section class="subtle-band"><div class="container section-padding"><div class="section-heading"><div><p class="kicker">{e(t['research'])}</p><h2>{e(t['featuredR'])}</h2></div>{link(t['all']+' →',path(lang,'research'),'arrow-link')}</div><div class="two-col-cards">{research}</div></div></section><section class="container section-padding"><div class="section-heading"><div><p class="kicker">{e(t['publications'])}</p><h2>{e(t['featuredP'])}</h2></div>{link(t['all']+' →',path(lang,'research')+'#publicaciones','arrow-link')}</div><div class="featured-pubs">{pubs}</div></section><section class="home-cta"><div class="container home-cta-inner"><div><p class="kicker">{e(t['records'])}</p><h2>{e(t['complete'])}</h2></div>{link(t['profile']+' →',path(lang,'profile'),'button light')}</div></section>'''
 
 def pubs_page(lang):
     t=TEXT[lang]
@@ -214,12 +214,35 @@ def profile_page(lang):
     location=langval(p,'location',lang)
     details=f'''<div class="profile-layout"><div class="profile-panel"><div class="profile-photo-small">{portrait}</div><h2>{e(p['name'])}</h2><p>{e(langval(p,'degree',lang))}</p><p class="institution">{e(p['institution'])}</p></div><div class="profile-copy"><p class="kicker">{e(t['academic'])}</p><h2>{e(t['areas'])}</h2><p>{e(langval(p,'tagline',lang))}</p><h2>{e(t['about'])}</h2><p class="{'empty-copy' if not bio else ''}">{e(bio or t['bio'])}</p>{f'<p>{e(location)}</p>' if location else ''}<div class="contact-block"><h2>{e(t['contact'])}</h2>{email_markup}{socials}</div>{cv_html}</div></div>'''
     langs=''.join(f'<div class="language-row"><strong>{e(langval(x,"name",lang))}</strong><span>{e(langval(x,"level",lang))}</span></div>' for x in LANGUAGES)
-    other=''.join(f'<a href="{path(lang,s)}">{e(t[s])} <span aria-hidden="true">→</span></a>' for s in ['education','research','publications','gallery','teaching','talks','recognitions'])
+    other=''.join(f'<a href="{path(lang,s)}">{e(t[s])} <span aria-hidden="true">→</span></a>' for s in ['education','research','gallery','teaching','talks','recognitions'])
     return details+f'<section class="record-section languages-section"><div class="group-heading"><h2>{e(t["languages"])}</h2></div><div class="language-table">{langs}</div></section><section class="profile-jump"><h2>{e(t["complete"])}</h2><div class="profile-jump-grid">{other}</div></section>'
+
+def research_and_publications_page(lang):
+    """One readable research section with the full bibliography below it.
+    The two sources of data remain independent for Pages CMS editing.
+    """
+    t=TEXT[lang]
+    projects_title=t['researchSub']
+    pubs_title=t['publications']
+    jump=(f'<nav class="record-section" aria-label="{e(t["research"])}">'
+          f'<a class="button secondary" href="#proyectos">{e(projects_title)} ↓</a> '
+          f'<a class="button secondary" href="#publicaciones">{e(pubs_title)} ↓</a>'
+          '</nav>')
+    projects=(f'<section class="record-section" id="proyectos">'
+              f'<div class="group-heading"><h2>{e(projects_title)}</h2><span>{len(DB["research"])}</span></div>'
+              f'<p>{e(t["intro_research"])}</p>'
+              f'{timeline(lang,"research",DB["research"])}'
+              '</section>')
+    publications=(f'<section class="record-section" id="publicaciones">'
+                  f'<div class="group-heading"><h2>{e(pubs_title)}</h2><span>{len(DB["publications"])}</span></div>'
+                  f'<p>{e(t["intro_publications"])}</p>'
+                  f'{pubs_page(lang)}'
+                  '</section>')
+    return jump+projects+publications
 
 def page_content(lang,page):
     if page=='home':return home(lang)
-    if page=='publications':inside=pubs_page(lang)
+    if page=='research':inside=research_and_publications_page(lang)
     elif page=='gallery':inside=gallery_page(lang)
     elif page=='teaching':inside=teaching_page(lang)
     elif page=='media':inside=media_page(lang)
@@ -232,6 +255,21 @@ def write_page(lang,page):
     dest.parent.mkdir(parents=True,exist_ok=True)
     dest.write_text(doc(lang,page,page_content(lang,page)),encoding='utf-8')
     return dest
+
+def write_legacy_publications_redirect(lang):
+    legacy = ('/en/publications/' if lang=='en' else '/publicaciones/')
+    url = path(lang,'research') + '#publicaciones'
+    dest = DIST / legacy.lstrip('/') / 'index.html'
+    dest.parent.mkdir(parents=True,exist_ok=True)
+    title = TEXT[lang]['publications']
+    dest.write_text(
+        '<!doctype html><html lang="'+lang+'"><head><meta charset="utf-8">'
+        '<meta name="robots" content="noindex">'
+        '<meta http-equiv="refresh" content="0;url='+e(url)+'">'
+        '<title>'+e(title)+'</title></head><body>'
+        '<p><a href="'+e(url)+'">'+e(title)+'</a></p></body></html>',
+        encoding='utf-8'
+    )
 
 def main():
     DIST.mkdir(parents=True,exist_ok=True)
@@ -246,6 +284,7 @@ def main():
     for lang in ('es','en'):
         for page in SECTIONS:
             written.append(write_page(lang,page))
+        write_legacy_publications_redirect(lang)
     site=os.environ.get('SITE_URL','').rstrip('/')
     if site:
         import xml.sax.saxutils as xml
