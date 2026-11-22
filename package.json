@@ -1,0 +1,23 @@
+{
+  "name": "cv-academico-tinacms",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tinacms dev -c \"next dev\"",
+    "build": "tinacms build && next build",
+    "build:local": "tinacms build --content=local --skip-cloud-checks -c \"next build\"",
+    "validate:content": "python3 scripts/validar.py"
+  },
+  "dependencies": {
+    "next": "15.3.8",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tinacms": "^3.10.0"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^2.5.3",
+    "typescript": "^5.9.3",
+    "@types/react": "^18.3.26",
+    "@types/node": "^22.18.12"
+  }
+}

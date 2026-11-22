@@ -1,0 +1,658 @@
+{
+  "profile": {
+    "name": "Valeria Rodríguez Morales",
+    "degree_es": "Doctora en Filosofía",
+    "degree_en": "PhD in Philosophy",
+    "institution": "Pontificia Universidad Católica de Chile",
+    "tagline_es": "Filosofía política, ética general, ética ambiental y filosofía antigua.",
+    "tagline_en": "Political philosophy, ethics, environmental ethics and ancient philosophy.",
+    "bio_es": "",
+    "bio_en": "",
+    "photo": "",
+    "email": "",
+    "website": "",
+    "orcid": "",
+    "google_scholar": "",
+    "philpapers": "",
+    "cv_pdf": "",
+    "location_es": "",
+    "location_en": "",
+    "intro_note_es": "Este sitio reúne la formación, la investigación, las publicaciones y la experiencia académica recogidas en mi currículum.",
+    "intro_note_en": "This website brings together the education, research, publications and academic experience documented in my curriculum vitae."
+  },
+  "languages": [
+    {
+      "name_es": "Español",
+      "name_en": "Spanish",
+      "level_es": "Lengua materna",
+      "level_en": "Native speaker"
+    },
+    {
+      "name_es": "Inglés",
+      "name_en": "English",
+      "level_es": "C1 (certificación IELTS)",
+      "level_en": "C1 (IELTS certification)"
+    },
+    {
+      "name_es": "Italiano",
+      "name_en": "Italian",
+      "level_es": "Lectura y escucha: intermedio; escritura y habla: básico",
+      "level_en": "Reading and listening: intermediate; writing and speaking: basic"
+    }
+  ],
+  "publications": [
+    {
+      "year": 2024,
+      "kind": "article",
+      "title": "Los límites del lenguaje humano en la retórica agustiniana. Un análisis basado en De doctrina christiana a la luz del De Magistro",
+      "citation": "Valeria V. Rodríguez Morales, “Los límites del lenguaje humano en la retórica agustiniana. Un análisis basado en De doctrina christiana a la luz del De Magistro”. Studium. Filosofía y Teología, 27 (53), 93–106. (Indexada en Latindex 2.0, ERIH PLUS).",
+      "doi": "",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": 2024,
+      "kind": "article",
+      "title": "La pregunta por la coherencia de la noción de amistad en el sistema epicúreo: una propuesta de disolución del problema",
+      "citation": "Valeria V. Rodríguez Morales, “La pregunta por la coherencia de la noción de amistad en el sistema epicúreo: una propuesta de disolución del problema”. Revista de Filosofia: Universidad Católica de la Santísima Concepción, 23 (1):168-180. (Indexada en Latindex 2.0, ERIH PLUS).",
+      "doi": "",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": true
+    },
+    {
+      "year": 2024,
+      "kind": "chapter",
+      "title": "La physiología de los deseos frente a las hypolépseis pseudeîs sobre la ilimitada avidez humana. Dos conceptos epicúreos para un diálogo entre la ética hedonista y la ecosofía de Arne Naess",
+      "citation": "Valeria V. Rodríguez Morales, “La physiología de los deseos frente a las hypolépseis pseudeîs sobre la ilimitada avidez humana. Dos conceptos epicúreos para un diálogo entre la ética hedonista y la ecosofía de Arne Naess”, en Cambio climático: perspectivas diversas sobre un problema común (pp. 75-84). Cochabamba: Universidad Privada Boliviana.",
+      "doi": "",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": 2022,
+      "kind": "chapter",
+      "title": "Velo y develamiento de la crisis ecológica",
+      "citation": "Valeria V. Rodríguez Morales, “Velo y develamiento de la crisis ecológica”, en Relatos de investigadoras. Cochabamba: UCB - CESU.",
+      "doi": "",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": 2022,
+      "kind": "article",
+      "title": "Estado-Nación y Minorías: Algunas Perspectivas Teóricas de la Reflexión Temprana de Hannah Arendt",
+      "citation": "O. Gracia Landaeta, V. V. Rodríguez Morales, C. Miranda Bascopé, “Estado-Nación y Minorías: Algunas Perspectivas Teóricas de la Reflexión Temprana de Hannah Arendt”. Investigación & Desarrollo, 22 (2), 125-137. (Indexada en Scielo).",
+      "doi": "",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": 2022,
+      "kind": "chapter",
+      "title": "Decolonizing environmental politics: sumak kawsay as a possible moral foundation for green policies",
+      "citation": "Valeria V. Rodríguez Morales, “Decolonizing environmental politics: sumak kawsay as a possible moral foundation for green policies”, en Coord. Fernando David Márquez Duarte y Victor Alejandro Espinoza Valle, Decolonizing Politics and Theories from the Abya Yala. Bristol: E-International Relations.",
+      "doi": "",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": true
+    },
+    {
+      "year": 2021,
+      "kind": "edited_book",
+      "title": "Silencio y violencia: hilando reflexiones sobre narrativa boliviana contemporánea",
+      "citation": "Gutiérrez Moscoso, I. y Rodríguez Morales, V. (coordinadores). Silencio y violencia: hilando reflexiones sobre narrativa boliviana contemporánea. Cochabamba: Editorial 3600.",
+      "doi": "",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": 2021,
+      "kind": "column",
+      "title": "Columnas en La Ramona (periódico Opinión)",
+      "citation": "Columnista regular en el suplemento dominical La Ramona del periódico Opinión (Cochabamba, Bolivia). Columnas disponibles en: https://www.ramonacultural.com/autores_externos/valeria-rodriguez-morales/",
+      "doi": "",
+      "url": "https://www.ramonacultural.com/autores_externos/valeria-rodriguez-morales/",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": 2021,
+      "kind": "review",
+      "title": "Fundamentos filosóficos de un desafío ambiental y económico en la Amazonia brasileña: Educación para la sostenibilidad de Suely da Costa Campos",
+      "citation": "Valeria V. Rodríguez Morales, “Fundamentos filosóficos de un desafío ambiental y económico en la Amazonia brasileña: Educación para la sostenibilidad de Suely da Costa Campos” (Reseña). Revista de Estudios Brasileños 8 (17), 227-231. (Indexada en ERIH PLUS).",
+      "doi": "",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": 2021,
+      "kind": "chapter",
+      "title": "La metáfora de K’ara K’ara. Un devenir de la crisis en conciencia ciudadana para el desarrollo sostenible",
+      "citation": "Valeria V. Rodríguez Morales, “La metáfora de K’ara K’ara. Un devenir de la crisis en conciencia ciudadana para el desarrollo sostenible”, en Jóvenes y ciudadanía en tiempos de crisis (19-26). La Paz: Unión Europea.",
+      "doi": "",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": 2021,
+      "kind": "article",
+      "title": "‘Ni con Lima ni con Buenos Aires’: José Luis Roca y la lectura histórica del complejo nacimiento del Estado nacional boliviano",
+      "citation": "O. Gracia Landaeta, V. Rodríguez Morales, “‘Ni con Lima ni con Buenos Aires’: José Luis Roca y la lectura histórica del complejo nacimiento del Estado nacional boliviano”. Investigación & Desarrollo 21 (2), 113-129. (Indexada en Scielo).",
+      "doi": "",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": 2021,
+      "kind": "article",
+      "title": "Fedra velada. El enamoramiento como enfermedad en el Hipólito de Eurípides",
+      "citation": "Valeria V. Rodríguez Morales, “Fedra velada. El enamoramiento como enfermedad en el Hipólito de Eurípides”. Revista Con-Sciencias Sociales 13 (24), 6-12.",
+      "doi": "",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": 2021,
+      "kind": "article",
+      "title": "Epicúreos, Estoicos y Cristianos: Una interpretación de las concepciones de felicidad descritas por San Agustín de Hipona en De Beata Vita",
+      "citation": "Valeria V. Rodríguez Morales, “Epicúreos, Estoicos y Cristianos: Una interpretación de las concepciones de felicidad descritas por San Agustín de Hipona en De Beata Vita”. Revista de Filosofia: Universidad Católica de la Santísima Concepción, 20 (1), 81-92. (Indexada en Latindex 2.0, ERIH PLUS).",
+      "doi": "",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": 2020,
+      "kind": "article",
+      "title": "Una realidad virtual intransitable para la razón: el conocimiento moral en el arte literario desde El fuego y el sol de Iris Murdoch",
+      "citation": "Valeria V. Rodríguez Morales, “Una realidad virtual intransitable para la razón: el conocimiento moral en el arte literario desde El fuego y el sol de Iris Murdoch”, Yachay. Revista de Cultura, Filosofía y Teología (UCB, Facultad de Teología “San Pablo”), N° 71 (2020), 133-153 (indexada en Dialnet).",
+      "doi": "",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": 2020,
+      "kind": "article",
+      "title": "Crítica a la crítica utilitaria a la lógica tradicional. Una discusión con los filósofos modernos René Descartes y Francis Bacon",
+      "citation": "Valeria V. Rodríguez Morales, “Crítica a la crítica utilitaria a la lógica tradicional. Una discusión con los filósofos modernos René Descartes y Francis Bacon”, Con-Sciencias Sociales (Universidad Católica Boliviana), N° 23 (2020), 20-25.",
+      "doi": "",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": 2019,
+      "kind": "article",
+      "title": "De una observación moderna de Joseph Roulin a una lectura hermenéutica gadameriana del cuadro de Van Gogh",
+      "citation": "Valeria V. Rodríguez Morales, “De una observación moderna de Joseph Roulin a una lectura hermenéutica gadameriana del cuadro de Van Gogh”. Con-Sciencias Sociales (Universidad Católica Boliviana), N° 21 (2019), pp. 24-30.",
+      "doi": "",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    }
+  ],
+  "research": [
+    {
+      "year": "2022-2026",
+      "kind": "tesis",
+      "title": "Placer y comunidad. Problemas del supuesto del egoísmo en la historia interpretativa del hedonismo epicúreo",
+      "description_es": "Autora de la tesis doctoral: “Placer y comunidad. Problemas del supuesto del egoísmo en la historia interpretativa del hedonismo epicúreo”, Pontificia Universidad Católica de Chile. Financiada por: Agencia Nacional de Investigación y Desarrollo del Gobierno de Chile.",
+      "description_en": "Doctoral dissertation at Pontificia Universidad Católica de Chile. Funded by Chile’s National Research and Development Agency (ANID).",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": true
+    },
+    {
+      "year": "2022-2026",
+      "kind": "supervision",
+      "title": "El mal que el hombre elige libremente por placer según las Confesiones II, 4 de San Agustín de Hipona",
+      "description_es": "Tutora de la tesis: Roberto Villarroel Villarrubia, “El mal que el hombre elige libremente por placer según las Confesiones II, 4 de San Agustín de Hipona”, Licenciatura en Filosofía y Letras, Universidad Católica Boliviana “San Pablo”.",
+      "description_en": "Supervisor of Roberto Villarroel Villarrubia’s BA thesis in Philosophy and Letters, Universidad Católica Boliviana “San Pablo”.",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": "2024",
+      "kind": "estancia",
+      "title": "Estadía de investigación en la Università di Pisa",
+      "description_es": "Estadía de investigación en el Dottorato di ricerca in Scienze dell’antichità e archeologia del Dipartimento di Filologia, Letteratura e Lingüística de la Università di Pisa (Italia). Financiada por: Agencia Nacional de Investigación y Desarrollo del Gobierno de Chile.",
+      "description_en": "Research visit at the doctoral programme in Ancient Sciences and Archaeology, Department of Philology, Literature and Linguistics, Università di Pisa, Italy. Funded by ANID.",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": true
+    },
+    {
+      "year": "2021",
+      "kind": "archivo",
+      "title": "50 años del Instituto de Estudios Superiores en Teología",
+      "description_es": "Registro de archivos históricos para la investigación sobre los “50 años del Instituto de Estudios Superiores en Teología”. Financiado por: Facultad de Teología “San Pablo”.",
+      "description_en": "Archival work for research on the institute’s fiftieth anniversary. Funded by the Faculty of Theology “San Pablo”.",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": "2021",
+      "kind": "edicion",
+      "title": "Revista Yachay, número 72",
+      "description_es": "Editora de textos del número 72 de la Revista Yachay. Revista de Cultura, Filosofía y Teología (UCB, Facultad de Teología “San Pablo”, indexada en Dialnet).",
+      "description_en": "Text editor for issue 72 of Yachay. Revista de Cultura, Filosofía y Teología, Universidad Católica Boliviana; indexed in Dialnet.",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": "2021",
+      "kind": "supervision",
+      "title": "Justicia y ecología profunda. Una propuesta de lectura de ‘The Shallow and the Deep, Long-Range Ecology Movement’ de Arne Naess",
+      "description_es": "Tutora de la tesis: P. Benito Quintana Herrera, “Justicia y ecología profunda. Una propuesta de lectura  de ‘The Shallow and the Deep, Long-Range Ecology Movement’ de Arne Naess”, Licenciatura en Filosofía y Letras, Universidad Católica Boliviana “San Pablo”.",
+      "description_en": "Supervisor of P. Benito Quintana Herrera’s BA thesis in Philosophy and Letters, Universidad Católica Boliviana “San Pablo”.",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": "2019-2020",
+      "kind": "direccion",
+      "title": "Sociedad Científica de Filosofía y Letras “Franz Tamayo”",
+      "description_es": "Presidenta de la Sociedad Científica de Filosofía y Letras “Franz Tamayo” (SOCIEFRAT).",
+      "description_en": "President of the Society for Scientific Research in Philosophy and Letters “Franz Tamayo” (SOCIEFRAT).",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    },
+    {
+      "year": "2020",
+      "kind": "direccion",
+      "title": "Miradas transdisciplinarias en torno a Covid-19",
+      "description_es": "Presidenta de la Asociación de Sociedades Científicas de la Universidad Católica Boliviana “San Pablo” (ASCEUCB) y coordinadora del proyecto de investigación “Miradas transdisciplinarias en torno a Covid-19”",
+      "description_en": "President of the Association of Scientific Societies at Universidad Católica Boliviana “San Pablo” (ASCEUCB), and coordinator of the research project “Miradas transdisciplinarias en torno a Covid-19”.",
+      "url": "",
+      "pdf_url": "",
+      "embed_url": "",
+      "featured": false
+    }
+  ],
+  "teaching": [
+    {
+      "year": "1-2026",
+      "kind": "ayudantia",
+      "title": "Filosofía Política",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "description_es": "Ayudante de la materia de “Filosofía Política” en la Pontificia Universidad Católica de Chile. Santiago, Chile.",
+      "description_en": "Teaching assistant in “Filosofía Política”, Pontificia Universidad Católica de Chile, Santiago."
+    },
+    {
+      "year": "1-2026",
+      "kind": "ayudantia",
+      "title": "Filosofía: ¿para qué?",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "description_es": "Ayudante de la materia de “Filosofía: ¿para qué?” en la Pontificia Universidad Católica de Chile. Santiago, Chile.",
+      "description_en": "Teaching assistant in “Filosofía: ¿para qué?”, Pontificia Universidad Católica de Chile, Santiago."
+    },
+    {
+      "year": "1-2026",
+      "kind": "ayudantia",
+      "title": "Filosofía y ética",
+      "institution": "Escuela Militar, Santiago de Chile",
+      "description_es": "Ayudante de la materia “Filosofía y ética” (Secciones 104 y 109) en la Escuela Militar. Santiago, Chile.",
+      "description_en": "Teaching assistant in “Filosofía y ética”, sections 104 and 109, Escuela Militar, Santiago."
+    },
+    {
+      "year": "2026",
+      "kind": "docencia",
+      "title": "Metafísica",
+      "institution": "Universidad Católica Boliviana “San Pablo”",
+      "description_es": "Docente de la asignatura “Metafísica” en el bienio filosófico de la Facultad de Teología de la Universidad Católica Boliviana “San Pablo”",
+      "description_en": "Lecturer in the course “Metafísica” in the philosophical programme of the Faculty of Theology, Universidad Católica Boliviana “San Pablo”."
+    },
+    {
+      "year": "2026",
+      "kind": "docencia",
+      "title": "Análisis de textos filosóficos en latín y/o griego",
+      "institution": "Universidad Mayor, Real y Pontificia de San Francisco Xavier de Chuquisaca",
+      "description_es": "Docente de la materia “Análisis de textos filosóficos en latín y/o griego” en la carrera de Filosofía de la Universidad Mayor, Real y Pontificia de San Francisco Xavier de Chuquisaca.",
+      "description_en": "Lecturer in “Análisis de textos filosóficos en latín y/o griego”, Philosophy programme, Universidad Mayor, Real y Pontificia de San Francisco Xavier de Chuquisaca."
+    },
+    {
+      "year": "1-2023",
+      "kind": "ayudantia",
+      "title": "Griego I",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "description_es": "Ayudante de la materia “Griego I” en la Pontificia Universidad Católica de Chile. Santiago, Chile.",
+      "description_en": "Teaching assistant in “Griego I”, Pontificia Universidad Católica de Chile, Santiago."
+    },
+    {
+      "year": "2023",
+      "kind": "docencia",
+      "title": "Filosofía política y social",
+      "institution": "Universidad Católica Boliviana “San Pablo”",
+      "description_es": "Docente de la materia “Filosofía política y social” Licenciatura en Filosofía y Letras, Universidad Católica Boliviana “San Pablo”. Cochabamba, Bolivia.",
+      "description_en": "Lecturer in “Filosofía política y social”, BA programme in Philosophy and Letters, Cochabamba, Bolivia."
+    },
+    {
+      "year": "2019-2021",
+      "kind": "docencia",
+      "title": "Filosofía",
+      "institution": "Instituto de Nivelación Académica Pre-Universitaria (INAP)",
+      "description_es": "Docente de la materia “Filosofía”, cursos pre-universitarios de la Facultad de Ciencias Jurídicas y Ciencias Políticas, Instituto de Nivelación Académica Pre-Universitaria (INAP). Cochabamba, Bolivia. Meses de trabajo: 11/2019-01/2020; 12/2020-02/2021.",
+      "description_en": "Lecturer in “Filosofía”, pre-university courses of the Faculty of Legal and Political Sciences, INAP, Cochabamba, Bolivia. Teaching periods: November 2019–January 2020 and December 2020–February 2021."
+    },
+    {
+      "year": "2021",
+      "kind": "docencia",
+      "title": "Taller de Asesoría para el diálogo la profundización de saberes",
+      "institution": "Universidad Católica Boliviana “San Pablo”",
+      "description_es": "Docente de la materia “Taller de Asesoría para el diálogo la\nprofundización de saberes” en la carrera de Filosofía y Letras de la\nUniversidad Católica Boliviana “San Pablo”.",
+      "description_en": "Lecturer in “Taller de Asesoría para el diálogo la profundización de saberes”, Philosophy and Letters programme."
+    }
+  ],
+  "talks": [
+    {
+      "date": "04/11/2025",
+      "year": 2025,
+      "event": "IX Congreso Nacional de Filosofía: Filosofar en Chile",
+      "institution": "Asociación Chilena de Filosofía (ACHIF)",
+      "title": "El supuesto del egoísmo en la interpretación de la doctrina epicúrea",
+      "description_es": "Conferencista en: “IX Congreso Nacional de Filosofía: Filosofar en Chile”. Congreso organizado por la Asociación Chilena de Filosofía (ACHIF). Ponencia: El supuesto del egoísmo en la interpretación de la doctrina epicúrea.",
+      "description_en": "Speaker at the national philosophy congress. Presentation: “El supuesto del egoísmo en la interpretación de la doctrina epicúrea”.",
+      "video_url": "",
+      "slides_url": "",
+      "pdf_url": ""
+    },
+    {
+      "date": "12/11/2025",
+      "year": 2025,
+      "event": "IX Congreso Internacional de Doctorandos en Filosofía",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "title": "¿Es el egoísmo una consecuencia necesaria del hedonismo? Una invitación a reinterpretar el vínculo entre placer y comunidad a partir de la filosofía epicúrea",
+      "description_es": "Conferencista en: “IX Congreso Internacional de Doctorandos en Filosofía”. Congreso organizado por la Pontificia Universidad Católica de Chile. Ponencia: ¿Es el egoísmo una consecuencia necesaria del hedonismo? Una invitación a reinterpretar el vínculo entre placer y comunidad a partir de la filosofía epicúrea.",
+      "description_en": "Speaker at the international doctoral philosophy congress. Presentation: “¿Es el egoísmo una consecuencia necesaria del hedonismo? Una invitación a reinterpretar el vínculo entre placer y comunidad a partir de la filosofía epicúrea”.",
+      "video_url": "",
+      "slides_url": "",
+      "pdf_url": ""
+    },
+    {
+      "date": "15/01/2024",
+      "year": 2024,
+      "event": "Seminario en la Università di Pisa",
+      "institution": "Università di Pisa",
+      "title": "L'egoismo nella storia dell'interpretazione della filosofia epicurea: possibili origini",
+      "description_es": "Impartí el Seminario “L'egoismo nella storia dell'interpretazione della filosofia epicurea: possibili origini” en el Dipartimento di Filologia, Letteratura e Lingüística de la Università di Pisa (Italia).",
+      "description_en": "Seminar presented in the Department of Philology, Literature and Linguistics, Università di Pisa, Italy. Presentation: “L'egoismo nella storia dell'interpretazione della filosofia epicurea: possibili origini”.",
+      "video_url": "",
+      "slides_url": "",
+      "pdf_url": ""
+    },
+    {
+      "date": "06/10/2021",
+      "year": 2021,
+      "event": "VII Congreso Nacional de Filosofía: Filosofar en Chile",
+      "institution": "Asociación Chilena de Filosofía (ACHIF)",
+      "title": "Placer y ética en el consumo. La φυσιολογία de los deseos de Epicuro frente a la ψεῦδολογία (o ψευδοδοξία) de la ilimitada avidez humana",
+      "description_es": "Conferencista en: “VII Congreso Nacional de Filosofía: Filosofar en Chile”. Congreso organizado por la Asociación Chilena de Filosofía (ACHIF). Ponencia: Placer y ética en el consumo. La φυσιολογία de los deseos de Epicuro frente a la ψεῦδολογία (o ψευδοδοξία) de la ilimitada avidez humana.",
+      "description_en": "Speaker at the national philosophy congress. Presentation: “Placer y ética en el consumo. La φυσιολογία de los deseos de Epicuro frente a la ψεῦδολογία (o ψευδοδοξία) de la ilimitada avidez humana”.",
+      "video_url": "",
+      "slides_url": "",
+      "pdf_url": ""
+    },
+    {
+      "date": "19/02/2021",
+      "year": 2021,
+      "event": "Inauguración del Aniversario de los 50 años de la carrera de Filosofía",
+      "institution": "Universidad Católica Boliviana “San Pablo”",
+      "title": "Felicidad, placer y filosofía",
+      "description_es": "Conferencista en: “Inauguración del Aniversario de los 50 años de la carrera de Filosofía”. Conferencia virtual organizada por la UCB. Ponencia: Felicidad, placer y filosofía.",
+      "description_en": "Speaker at an online conference commemorating the fiftieth anniversary of the philosophy programme. Presentation: “Felicidad, placer y filosofía”.",
+      "video_url": "",
+      "slides_url": "",
+      "pdf_url": ""
+    },
+    {
+      "date": "10/11/2020",
+      "year": 2020,
+      "event": "II Congreso Filosofía para Todos",
+      "institution": "Universidad Mayor de San Andrés",
+      "title": "De una observación moderna de Joseph Roulin a una lectura hermenéutica gadameriana del cuadro de Van Gogh",
+      "description_es": "Conferencista en: “II Congreso Filosofía para Todos”. Ciclo de conferencias virtual organizado por la Sociedad Científica de Filosofía de la Universidad Mayor de San Andrés con el apoyo de la Asociación Boliviana de Filosofía. Ponencia: De una observación moderna de Joseph Roulin a una lectura hermenéutica gadameriana del cuadro de Van Gogh.",
+      "description_en": "Speaker in an online lecture series organised by the philosophy scientific society at Universidad Mayor de San Andrés with the support of the Bolivian Philosophy Association. Presentation: “De una observación moderna de Joseph Roulin a una lectura hermenéutica gadameriana del cuadro de Van Gogh”.",
+      "video_url": "",
+      "slides_url": "",
+      "pdf_url": ""
+    },
+    {
+      "date": "12/06/2020",
+      "year": 2020,
+      "event": "Paradojas de una pandemia II - Zoé y bíos. Consejos para tomar por los cuernos a un dilema cazabobos",
+      "institution": "Universidad Católica Boliviana “San Pablo”",
+      "title": "Una distopía nacional",
+      "description_es": "Conferencista en: “Paradojas de una pandemia II - Zoé y bíos. Consejos para tomar por los cuernos a un dilema cazabobos”. Ciclo de conferencias virtual organizado por la carrera de Filosofía y Letras de la UCB. Ponencia: Una distopía nacional.",
+      "description_en": "Speaker at an online lecture series organised by the Philosophy and Letters programme. Presentation: “Una distopía nacional”.",
+      "video_url": "",
+      "slides_url": "",
+      "pdf_url": ""
+    },
+    {
+      "date": "22/05/2020",
+      "year": 2020,
+      "event": "Miradas transdisciplinarias en torno a Covid-19",
+      "institution": "ASCEUCB",
+      "title": "Felicidad, utilitarismo y cuarentena",
+      "description_es": "Conferencista y coordinadora de: “Miradas transdisciplinarias en torno a Covid-19”. Ciclo de conferencias virtual organizado por la ASCEUCB. Ponencia: Felicidad, utilitarismo y cuarentena.",
+      "description_en": "Speaker and coordinator of an online lecture series organised by ASCEUCB. Presentation: “Felicidad, utilitarismo y cuarentena”.",
+      "video_url": "",
+      "slides_url": "",
+      "pdf_url": ""
+    },
+    {
+      "date": "13/06/2019",
+      "year": 2019,
+      "event": "Debate interdisciplinar: ¿Ciencia política o filosofía política?",
+      "institution": "Universidad Católica Boliviana “San Pablo”",
+      "title": "",
+      "description_es": "Coordinadora de: “Debate interdisciplinar: ¿Ciencia política o filosofía política?”. Campus Central de la UCB, Cochabamba, Bolivia.",
+      "description_en": "Coordinator of an interdisciplinary debate at the main campus in Cochabamba.",
+      "video_url": "",
+      "slides_url": "",
+      "pdf_url": ""
+    },
+    {
+      "date": "19/07/2019",
+      "year": 2019,
+      "event": "Mujeres y filosofía: perspectivas femeninas de pensamiento en el último tiempo",
+      "institution": "Universidad Católica Boliviana “San Pablo”",
+      "title": "Iris Murdoch dentro y fuera de la Caverna. El conocimiento moral a través del arte literario",
+      "description_es": "Conferencista en: “Mujeres y filosofía: perspectivas femeninas de pensamiento en el último tiempo”. Campus Central de la UCB, Cochabamba, Bolivia. Ponencia: Iris Murdoch dentro y fuera de la Caverna. El conocimiento moral a través del arte literario.",
+      "description_en": "Speaker at an academic event held at the main campus of Universidad Católica Boliviana in Cochabamba. Presentation: “Iris Murdoch dentro y fuera de la Caverna. El conocimiento moral a través del arte literario”.",
+      "video_url": "",
+      "slides_url": "",
+      "pdf_url": ""
+    },
+    {
+      "date": "21/02/2019",
+      "year": 2019,
+      "event": "¿Cómo pensar “lo imaginario”? La representación del sujeto nacional en José Luis Roca y Leonardo García Pabón. Ciclo de Conferencias 2019 – UCB",
+      "institution": "Universidad Católica Boliviana “San Pablo”",
+      "title": "La conflictiva subjetividad del criollo según Leonardo García Pabón",
+      "description_es": "Conferencista en: “¿Cómo pensar “lo imaginario”? La representación del sujeto nacional en José Luis Roca y Leonardo García Pabón. Ciclo de Conferencias 2019 – UCB”. Campus Central de la UCB, Cochabamba, Bolivia. Ponencia: La conflictiva subjetividad del criollo según Leonardo García Pabón",
+      "description_en": "Speaker in the 2019 UCB lecture series at the main campus in Cochabamba. Presentation: “La conflictiva subjetividad del criollo según Leonardo García Pabón”.",
+      "video_url": "",
+      "slides_url": "",
+      "pdf_url": ""
+    },
+    {
+      "date": "14/12/2018",
+      "year": 2018,
+      "event": "Cinco provocaciones a leer Néstor Taboada Terán",
+      "institution": "Centro Cuarto Intermedio",
+      "title": "Influencia de la tragedia griega en una novela trágica boliviana",
+      "description_es": "Conferencista en: “Cinco provocaciones a leer Néstor Taboada Terán”. Centro Cuarto Intermedio, Cochabamba, Bolivia. Ponencia: Influencia de la tragedia griega en una novela trágica boliviana.",
+      "description_en": "Speaker at an event at Centro Cuarto Intermedio, Cochabamba. Presentation: “Influencia de la tragedia griega en una novela trágica boliviana”.",
+      "video_url": "",
+      "slides_url": "",
+      "pdf_url": ""
+    },
+    {
+      "date": "15/11/2018",
+      "year": 2018,
+      "event": "Día mundial de la filosofía 2018-UCB",
+      "institution": "Universidad Católica Boliviana “San Pablo”",
+      "title": "Algunas hipálages. La filosofía como fármaco en Epicuro",
+      "description_es": "Conferencista en el “Día mundial de la filosofía 2018-UCB”. Campus Central de la UCB, Cochabamba, Bolivia. Ponencia: Algunas hipálages. La filosofía como fármaco en Epicuro.",
+      "description_en": "Speaker at World Philosophy Day 2018, UCB, Cochabamba. Presentation: “Algunas hipálages. La filosofía como fármaco en Epicuro”.",
+      "video_url": "",
+      "slides_url": "",
+      "pdf_url": ""
+    },
+    {
+      "date": "28/09/2018",
+      "year": 2018,
+      "event": "I Jornada de Estudios Clásicos",
+      "institution": "Universidad Católica Boliviana “San Pablo”",
+      "title": "Pensar la comunidad desde un par de elegías de Ovidio",
+      "description_es": "Conferencista en: “I Jornada de Estudios Clásicos”. Campus Central de la UCB, Cochabamba, Bolivia. Ponencia: Pensar la comunidad desde un par de elegías de Ovidio.",
+      "description_en": "Speaker at the first Classical Studies Day, UCB, Cochabamba. Presentation: “Pensar la comunidad desde un par de elegías de Ovidio”.",
+      "video_url": "",
+      "slides_url": "",
+      "pdf_url": ""
+    },
+    {
+      "date": "16/11/2017",
+      "year": 2017,
+      "event": "Día mundial de la filosofía 2017-UCB",
+      "institution": "Universidad Católica Boliviana “San Pablo”",
+      "title": "Algunas hipálages. La filosofía como fármaco en Epicuro",
+      "description_es": "Conferencista en el “Día mundial de la filosofía 2017-UCB”. Campus Central de la UCB, Cochabamba, Bolivia. Ponencia: Algunas hipálages. La filosofía como fármaco en Epicuro.",
+      "description_en": "Speaker at World Philosophy Day 2017, UCB, Cochabamba. Presentation: “Algunas hipálages. La filosofía como fármaco en Epicuro”.",
+      "video_url": "",
+      "slides_url": "",
+      "pdf_url": ""
+    },
+    {
+      "date": "27/10/2017",
+      "year": 2017,
+      "event": "Primer Congreso Regional de Filosofía",
+      "institution": "Universidad Católica Boliviana “San Pablo”",
+      "title": "Sin pan ni agua, sólo martillos de vidrio. Sobre los deseos según Epicuro y la relación naturaleza-sociedad",
+      "description_es": "Conferencista en el “Primer Congreso Regional de Filosofía”. Campus Central de la UCB, Cochabamba, Bolivia. Ponencia: Sin pan ni agua, sólo martillos de vidrio. Sobre los deseos según Epicuro y la relación naturaleza-sociedad.",
+      "description_en": "Speaker at the First Regional Congress of Philosophy, UCB, Cochabamba. Presentation: “Sin pan ni agua, sólo martillos de vidrio. Sobre los deseos según Epicuro y la relación naturaleza-sociedad”.",
+      "video_url": "",
+      "slides_url": "",
+      "pdf_url": ""
+    }
+  ],
+  "education": [
+    {
+      "year": "2022-2026",
+      "title_es": "Doctorado en Filosofía",
+      "title_en": "PhD in Philosophy",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "description_es": "Doctorado en Filosofía. Pontificia Universidad Católica de Chile. Santiago, Chile. (Graduada con Distinción Máxima, con nota total de 6.9/7; nota de Defensa o Examen de Grado: 7/7)",
+      "description_en": "Graduated with the highest distinction. Overall grade: 6.9/7; doctoral defence: 7/7. Santiago, Chile."
+    },
+    {
+      "year": "2020-2021",
+      "title_es": "Diplomado en Educación Superior: Metodología basada en Competencias",
+      "title_en": "Postgraduate Diploma in Higher Education: Competency-Based Methodology",
+      "institution": "Universidad Católica Boliviana “San Pablo”",
+      "description_es": "Diplomado en Educación Superior: Metodología basada en Competencias. Programa de Postgrado. Universidad Católica Boliviana “San Pablo”. Cochabamba, Bolivia.",
+      "description_en": "Postgraduate programme. Cochabamba, Bolivia."
+    },
+    {
+      "year": "2017-2020",
+      "title_es": "Licenciatura en Filosofía y Letras",
+      "title_en": "BA in Philosophy and Letters",
+      "institution": "Universidad Católica Boliviana “San Pablo”",
+      "description_es": "Licenciatura en Filosofía y Letras. Promedio general: 96.51/100. Modalidad de graduación: Titulación por Excelencia. Universidad Católica Boliviana “San Pablo”. Cochabamba, Bolivia.",
+      "description_en": "Graduated with distinction through the academic excellence route. Overall average: 96.51/100. Cochabamba, Bolivia."
+    }
+  ],
+  "recognitions": [
+    {
+      "year": "2022-2025",
+      "kind": "beca",
+      "title": "Beca Doctorado Nacional ANID",
+      "description_es": "Becaria de la Agencia Nacional de Investigación y Desarrollo (ANID) del Gobierno de Chile (Beca Doctorado Nacional).",
+      "description_en": "Recipient of the National PhD Scholarship from the Chilean National Research and Development Agency (ANID)."
+    },
+    {
+      "year": "2024",
+      "kind": "estancia",
+      "title": "Pasantía de investigación en la Università di Pisa",
+      "description_es": "Pasantía de investigación en el Dottorato di ricerca in Scienze dell’antichità e archeologia de la Università di Pisa (Italia).",
+      "description_en": "Research fellowship at the doctoral programme in Ancient Sciences and Archaeology, Università di Pisa, Italy."
+    },
+    {
+      "year": "2024",
+      "kind": "financiamiento",
+      "title": "Beneficios Complementarios de la ANID",
+      "description_es": "Adjudicataria de Beneficios Complementarios de la ANID (Pasantía y Gastos Operacionales).",
+      "description_en": "Recipient of ANID supplementary funding for research visits and operating expenses."
+    },
+    {
+      "year": "2021",
+      "kind": "membresia",
+      "title": "Sociedad Boliviana de Estudios Clásicos (SOBEC)",
+      "description_es": "Miembro de la Sociedad Boliviana de Estudios Clásicos (SOBEC)",
+      "description_en": "Member of the Bolivian Society for Classical Studies (SOBEC)."
+    },
+    {
+      "year": "2021",
+      "kind": "direccion",
+      "title": "Asociación Boliviana de Filosofía (ABOF)",
+      "description_es": "Presidenta de la Asociación Boliviana de Filosofía (ABOF)",
+      "description_en": "President of the Bolivian Philosophy Association (ABOF)."
+    },
+    {
+      "year": "2017-2020",
+      "kind": "beca",
+      "title": "Beca Completa “Bachiller”",
+      "description_es": "Ganadora de la Beca Completa “Bachiller” en la Universidad Católica Boliviana para estudiar toda la carrera de Filosofía y Letras.",
+      "description_en": "Full “Bachiller” scholarship from Universidad Católica Boliviana for the entire BA programme in Philosophy and Letters."
+    },
+    {
+      "year": "2020",
+      "kind": "premio",
+      "title": "Primer Lugar en el 1er Concurso de Ensayos de la Unión Europea en Bolivia",
+      "description_es": "Ganadora del Primer Lugar en el 1er Concurso de Ensayos organizado por la Unión Europea en Bolivia.",
+      "description_en": "First prize at the First Essay Competition organised by the European Union in Bolivia."
+    }
+  ],
+  "media": [],
+  "gallery": []
+}
