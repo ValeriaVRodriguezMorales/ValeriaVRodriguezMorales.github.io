@@ -1,0 +1,32 @@
+
+name: Probar TinaCMS sin publicar
+
+on:
+  push:
+    branches:
+      - tina-pruebas
+
+permissions:
+  contents: read
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar archivos
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Instalar dependencias
+        run: npm install --no-audit --no-fund
+
+      - name: Comprobar contenido del CV
+        run: npm run validate:content
+
+      - name: Compilar la página de prueba
+        run: npm run build:local
