@@ -1,0 +1,20 @@
+[
+  {
+    "name_es": "Español",
+    "name_en": "Spanish",
+    "level_es": "Lengua materna",
+    "level_en": "Native speaker"
+  },
+  {
+    "name_es": "Inglés",
+    "name_en": "English",
+    "level_es": "C1 (certificación IELTS)",
+    "level_en": "C1 (IELTS certification)"
+  },
+  {
+    "name_es": "Italiano",
+    "name_en": "Italian",
+    "level_es": "Lectura y escucha: intermedio; escritura y habla: básico",
+    "level_en": "Reading and listening: intermediate; writing and speaking: basic"
+  }
+]
